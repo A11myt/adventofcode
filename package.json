@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": ".\\node_modules\\.bin\\tsc index.ts",
+    "build": "tsc",
     "start": "tsc && node dist/index.js"
   },
   "devDependencies": {
